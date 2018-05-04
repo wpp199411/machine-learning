@@ -1,5 +1,11 @@
 import numpy as np
 def PerceptronTrain(X,Y,lr=1,times=1000):
+#输入: X:训练样本
+#      Y:期望输出
+#      times:迭代次数，默认1000
+#输出：w:权值
+#      b:偏置
+#模型：Y=wX+b
     X=np.array(X)
     Y=np.array(Y)
     w=np.random.random(X.shape[1])
