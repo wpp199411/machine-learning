@@ -22,6 +22,7 @@ def PerceptronTrain(X,Y,lr=1,times=1000):
                     b=b+Y[n]
                 n+=1
     print(w,b)
+    return(w,b)
 X=[[1,3],[1,4],[1,1]]
 Y=[1,1,-1]
 PerceptronTrain(X,Y)
