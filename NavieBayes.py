@@ -31,7 +31,6 @@ def NavieBayes(X,Y,NewInput):
         if maxPro<Pro:
             maxPro=Pro
             maxLable=lable
-    print(Probility)
     return maxLable,Probility
 
 
